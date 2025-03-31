@@ -1,7 +1,7 @@
 {
     "name": "learn-server-mvc-sessions-cookies",
     "version": "1.0.0",
-    "description": "Server example for using mongoose",
+    "description": "Server example for using sessions and cookies",
     "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
