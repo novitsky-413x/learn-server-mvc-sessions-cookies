@@ -2,7 +2,7 @@
 <header class="main-header">
     <button id="side-menu-toggle">Menu</button>
     <nav class="main-header__nav">
-        <ul class="main-header__item-list">
+        <ul class="main-header__item-list main-header__item-list--panel">
             <li class="main-header__item">
                 <a class="<%= path === '/' ? 'active' : '' %>" href="/">Shop</a>
             </li>
@@ -28,7 +28,7 @@
             </li>
             <% } %>
         </ul>
-        <ul class="main-header__item-list">
+        <ul class="main-header__item-list main-header__item-list--auth">
             <li class="main-header__item">
                 <a class="<%= path === '/login' ? 'active' : '' %>" href="/login">Login</a>
             </li>
